@@ -128,6 +128,16 @@ a:hover {
   justify-content: center;
 }
 
+/*kurse und kegelbahn*/
+.ckurskegel-items {
+	display: inline-flex;
+	margin: auto;
+}
+
+.ckurskegel img{
+	width: 35%;
+}
+
 /*contact form*/
 /* Style inputs with type="text", select elements and textareas */
 input[type=text], input[type=email], select, textarea {
@@ -167,12 +177,6 @@ button[type=submit]:hover {
 
 fieldset {
   border-style: none;
-}
-
-/*kurse und kegelbahn*/
-.ckurskegel-items {
-	display: inline-flex;
-	margin: auto;
 }
 
 /*anfahrt*/
