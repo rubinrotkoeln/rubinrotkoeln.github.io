@@ -1,0 +1,187 @@
+* {
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;	
+}
+
+	body {
+	font-family: Roboto Mono, sans serif;
+	font-size: 20px;
+	line-height: 1.5;
+	
+	background-image:url('/background-ex-3.png');
+	background-size: 200px;
+	background-repeat: repeat;
+	color: #ffffff;
+	margin: 40px auto 40px auto;
+}
+
+h1 {
+	font-size: 35px;
+	font-weight: 700;
+}
+
+.small{
+  font-size: 13px;
+  opacity: 0.7;
+}
+
+a {
+	color: #ffffff;
+	text-decoration: none;
+  transition: opacity 1s, color 1s;
+}
+
+a:hover {
+	opacity: 0.7;
+  color: #d7b3ff;
+}
+
+/*tools*/
+.space-bar{
+  height: 140px;
+  width: 100%;
+}
+
+/*Fixed Banner*/
+.banner{
+	display: flex;
+	position: fixed;
+	justify-content: space-between;
+	top: 0px;
+	left:0px;
+	width: 100%;
+	height: 130px;
+	padding: 10px;
+	margin:auto;
+	background-color:#970909;
+  z-index: 2;
+}
+
+.logo {
+	padding:10px;
+}
+
+.logo-image {
+	width: 250px;
+	height: auto;
+  transition: opacity 1s;
+}
+
+.logo-image:hover {
+  opacity: 0.6;
+}
+
+.top-navigation{
+	list-style-type: none;
+	display: inline-flex;
+	justify-content: right;
+	align-items: center;
+	margin: auto;
+}
+
+.top-navigation li{
+	padding-left: 30px;
+}
+
+.social-icon {
+	width: 25px;
+	margin:10px 10px auto 10px;
+  transition:  opacity 1s;
+}
+
+.social-icon:hover{
+	opacity: 0.7;
+}
+
+.bar-photo{
+  display:  block;
+  object-fit: contain;
+  margin-left: auto;
+  margin-right: auto;
+  width:  100%;
+  margin-top: -100px;
+}
+
+/*pages (without footer)*/
+.page{
+  margin-left: 30px;
+  margin-right: 30px;
+}
+
+/*content*/
+.content{
+  position:  relative;
+  display: block;
+  width: 100%;
+  z-index: 0;
+}
+
+/*contact form*/
+/* Style inputs with type="text", select elements and textareas */
+input[type=text], input[type=email], select, textarea {
+  font-family: Roboto Mono, sans serif;
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px; 
+  margin-top: 6px;
+  margin-bottom: 16px; 
+  resize: vertical; /* Allow the user to vertically resize the textarea (not horizontally) */
+}
+
+/* Style the submit button with a specific background color etc */
+button[type=submit] {
+  font-family: Roboto Mono, sans serif;
+  background-color: #734275;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+/* When moving the mouse over the submit button, add a darker green color */
+button[type=submit]:hover {
+  background-color: #a67ba8;
+  transition: background-color 0.5s;
+}
+
+/* Add a background color and some padding around the form */
+.container {
+  padding: 20px;
+  width: 50%;
+  margin: auto;
+}
+
+/*footer*/
+.footer{
+  display: inline-flex;
+  justify-content: center;
+  align-content: flex-end;
+  align-items: center;
+  position:  absolute;
+  margin-top: 320px;
+  background-color: #970909;
+  height: 170px;
+  width: 100%;
+  right: 0px;
+}
+
+.footernav-left{
+  text-align: right;
+}
+
+.footernav{
+  padding: 10px;
+  font-size: 18px;
+}
+
+.footer-image{
+  height: 180px;
+  width: auto;
+}
+
+.footer ul li {
+  list-style-type:  none;
+}
