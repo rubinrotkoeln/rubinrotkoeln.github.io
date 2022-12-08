@@ -117,7 +117,7 @@ a:hover {
   z-index: 0;
 }
 
-.instagram-embed{
+/*.instagram-embed{
   display: inline-flex;
   height: 400px;
 	
@@ -126,7 +126,7 @@ a:hover {
 .instagram-media {
   margin: 20px;
   justify-content: center;
-}
+}*/
 
 /*kurse und kegelbahn*/
 .ckurskegel {
@@ -136,6 +136,10 @@ a:hover {
 
 .ckurskegel img{
 	width: 35%;
+}
+
+.ckurskegel-desc {
+	margin: auto;
 }
 
 /*contact form*/
