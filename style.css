@@ -238,6 +238,7 @@ iframe, .anfahrt-desc {
   align-items: flex-end;
   width: 100%;
   bottom: 0px;
+  margin-right:10px;
 }
 
 .footer-impressum p{
