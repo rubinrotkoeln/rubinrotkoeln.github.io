@@ -117,6 +117,12 @@ a:hover {
   z-index: 0;
 }
 
+.instagramembed{
+  display: inline-flex;
+  height: 400px;
+	
+}
+
 /*contact form*/
 /* Style inputs with type="text", select elements and textareas */
 input[type=text], input[type=email], select, textarea {
