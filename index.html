@@ -83,7 +83,8 @@
       <div class="space-bar"></div>
       <h1>Kontakt</h1>
       <div class="container">
-  <form onsubmit="sendEmail(); reset(); return false;">
+  <form action="https://formspree.io/f/mknedqrq"
+  method="POST">
 
     <label for="fname">Vorname*</label>
     <input type="text" id="fname" name="firstname" placeholder="Ruben" required>
@@ -134,24 +135,6 @@
    </div>
       
       
-      
-      
-      <script src=" https://smtpjs.com/v3/smtp.js"></script>
-      <script>
-        funktion sendEmail() {
-          Email.send({
-            SecureToken:"d193881e-3c0b-4fdc-a9d5-50b98e0b78f5",
-    To : 'rubinrotehrenfeld@gmail.com',
-    From : document.getElementById("email").value,
-    Subject : "Kontakt durch Website",
-    Body : "Name " + getElementById(fname).value + " " + getElementById(lname).value
-            + "<br> Email: " + getElementById(email).value
-            + "<br> Anliegen: " + getElementById(subject).value
-}).then(
-  message => alert("Success!")
-);
-
-        }
-      </script>
+   
   </body>
 </html>
