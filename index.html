@@ -83,28 +83,18 @@
       <div class="space-bar"></div>
       <h1>Kontakt</h1>
       <div class="container">
-  <form action="https://formspree.io/f/mknedqrq"
-  method="POST">
-
-    <label>Vorname*
-    <input type="text" name="firstname" placeholder="Ruben" required>
-    </label>
-
-    <label>Nachname*
-    <input type="text" name="lastname" placeholder="Rot" required>
-    </label>
-    
-    <label>E-mail*
-    <input type="email" name="email" placeholder="ruben.rot@gmail.com" required>
-    </label>
-
-    <label>Dein Anliegen*
-    <textarea name="message" placeholder="Schreib uns..." style="height:150px" required></textarea>
-    </label>
-
-    <button type="submit">Senden</button>
-
-  </form>
+  <form id="fs-frm" name="simple-contact-form" accept-charset="utf-8" action="https://formspree.io/f/{form_id}" method="post">
+  <fieldset id="fs-frm-inputs">
+    <label for="full-name">Vor-/Nachname*</label>
+    <input type="text" name="name" id="full-name" placeholder="Ruben Rot" required="">
+    <label for="email-address">E-Mail*</label>
+    <input type="email" name="_replyto" id="email-address" placeholder="email@rubinrot.com" required="">
+    <label for="message">Dein Anliegen*</label>
+    <textarea rows="5" name="message" id="message" placeholder="Schreib uns..." required=""></textarea>
+    <input type="hidden" name="_subject" id="email-subject" value="Contact Form Submission">
+  </fieldset>
+  <input type="submit" value="Senden">
+</form>
 </div>     
     </div>
     
