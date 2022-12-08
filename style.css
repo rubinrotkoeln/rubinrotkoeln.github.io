@@ -195,25 +195,31 @@ iframe, .anfahrt-desc {
 
 
 /*footer*/
-.footer{
-  display: inline-flex;
-  justify-content: center;
-  align-content: flex-end;
-  align-items: center;
-  position:  absolute;
-  margin-top: 320px;
+.footer {
+  position: absolute;
+  margin-top: 50px;
+  margin-bottom: 0px;
   background-color: #970909;
-  height: 190px;
+  height: 230px;
   width: 100%;
   right: 0px;
+  
+  
+}
+.footer-main{
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  
 }
 
 .footernav-left{
   text-align: right;
+  margin-right: 10px;
 }
 
 .footernav{
-  padding: 10px;
   font-size: 18px;
 }
 
@@ -224,4 +230,17 @@ iframe, .anfahrt-desc {
 
 .footer ul li {
   list-style-type:  none;
+}
+
+.footer-impressum {
+  display: inline-flex;
+  justify-content: center;
+  align-items: flex-end;
+  width: 100%;
+  bottom: 0px;
+}
+
+.footer-impressum p{
+  margin-left: 5px;
+  margin-right: 5px;
 }
