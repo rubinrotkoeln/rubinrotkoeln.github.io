@@ -160,6 +160,10 @@ button[type=submit]:hover {
   margin: auto;
 }
 
+fieldset {
+  border-style: none;
+}
+
 /*footer*/
 .footer{
   display: inline-flex;
