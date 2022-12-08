@@ -123,6 +123,11 @@ a:hover {
 	
 }
 
+.instagram-media {
+  margin: 20px;
+  justify-content: center;
+}
+
 /*contact form*/
 /* Style inputs with type="text", select elements and textareas */
 input[type=text], input[type=email], select, textarea {
@@ -163,6 +168,18 @@ button[type=submit]:hover {
 fieldset {
   border-style: none;
 }
+
+
+/*anfahrt*/
+.anfahrt-items {
+  display: inline-flex;
+  margin: 20px;
+}
+
+iframe, .anfahrt-desc {
+  margin: 20px;
+}
+
 
 /*footer*/
 .footer{
