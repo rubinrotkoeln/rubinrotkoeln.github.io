@@ -48,6 +48,12 @@ a:hover {
 	z-index: 0;
 	width: 100%;
 	height: auto;
+	left: 0px;
+	top: 0px;
+	
+.web {
+	position: relative;
+}
 
 /*Fixed Banner*/
 .banner{
