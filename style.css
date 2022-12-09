@@ -8,15 +8,16 @@
 	font-family: Roboto Mono, sans serif;
 	font-size: 20px;
 	line-height: 1.5;
-	
+	background-image: url('pawel-czerwinski-arwtpniuhdm-unsplash.jpg');
 	background-color: #330016;
 	color: #ffffff;
 	margin: 40px auto 40px auto;
 }
 
 h1 {
-	font-size: 35px;
-	font-weight: 700;
+	font-family: Cinzel;
+	font-size: 40px;
+        letter-spacing: 2px;
 }
 
 .small{
