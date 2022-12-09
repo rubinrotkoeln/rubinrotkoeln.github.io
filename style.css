@@ -9,7 +9,7 @@
 	font-size: 20px;
 	line-height: 1.5;
 	background-image: url('pawel-czerwinski-arwtpniuhdm-unsplash.jpg');
-	background-color: #330016;
+	/*background-color: #330016;*/
 	color: #ffffff;
 	margin: 40px auto 40px auto;
 }
@@ -45,7 +45,7 @@ a:hover {
 /*Fixed Banner*/
 .banner{
 	display: flex;
-	position: fixed;
+	position: absolute;
 	justify-content: space-between;
 	top: 0px;
 	left:0px;
@@ -128,7 +128,7 @@ a:hover {
 }*/
 
 .ckurskegel img{
-	width: 30%;
+	width: 36%;
   border-radius: 5px;
   margin-top: 20px;
   margin-left: 30px;
