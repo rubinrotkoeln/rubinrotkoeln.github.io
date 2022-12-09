@@ -55,6 +55,11 @@ a:hover {
 	position: relative;
 }
 
+.wrap {
+        overflow: hidden;
+	position: relative;
+}
+
 /*Fixed Banner*/
 .banner{
 	display: flex;
