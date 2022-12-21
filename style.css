@@ -45,13 +45,13 @@ a:hover {
         color: #d7b3ff;
 }
 
-/*tools*/
+/*////////////////////////////////////////////tools*/
 .space-bar{
         height: 30px;
         width: 100%;
 }
 
-/*Fixed Banner*/
+/*////////////////////////////////////////////banner navigation*/
 .banner{
 	display: flex;
 	position: absolute;
@@ -102,6 +102,7 @@ a:hover {
 	opacity: 0.7;
 }
 
+/*////////////////////////////////////////////bar photo*/
 .bar-photo{
   display:  block;
   object-fit: contain;
@@ -111,13 +112,12 @@ a:hover {
   margin-top: -100px;
 }
 
-/*pages (without footer)*/
+/*////////////////////////////////////////////content format*/
 .page{
   margin-left: 30px;
   margin-right: 30px;
 }
 
-/*content*/
 .content{
   position:  relative;
   display: block;
@@ -125,15 +125,37 @@ a:hover {
   z-index: 0;
 }
 
-.ckurskegel img{
-	width: 36%;
+p.desc {
+  background-color: rgb(0, 0, 0, 0.4);
+  padding: 20px 10px 20px 10px;
+  margin: 10px;
+  border-radius: 5px;
+}
+
+.aboutus, .ckurs, .kegelbahn {
+  display: inline-flex;
+}
+
+/*////////////////////////////////////////////drinks*/
+.drinks {
+  width: 100%;
+}
+
+/*////////////////////////////////////////////cocktailkurs*/
+.ckurs img {
+  width: 36%;
   border-radius: 5px;
   margin-top: 20px;
   margin-left: 30px;
 }
 
-/*contact form*/
-/* Style inputs with type="text", select elements and textareas */
+/*////////////////////////////////////////////kegelbahn*/
+.kegelbahn img {
+  width: 35%;
+  margin-top: -30px;
+}
+
+/*////////////////////////////////////////////contact form*/
 input[type=text], input[type=email], select, textarea {
   font-family: Roboto Mono, sans serif;
   width: 100%;
@@ -145,7 +167,6 @@ input[type=text], input[type=email], select, textarea {
   resize: vertical; /* Allow the user to vertically resize the textarea (not horizontally) */
 }
 
-/* Style the submit button with a specific background color etc */
 button[type=submit] {
   font-family: Roboto Mono, sans serif;
   font-weight: 400;
@@ -160,7 +181,6 @@ button[type=submit] {
   cursor: pointer;
 }
 
-/* When moving the mouse over the submit button, add a darker green color */
 button[type=submit]:hover {
   background-color: #cccccc;
   border-color: #ccc;
@@ -177,7 +197,6 @@ button[type=submit]:active{
   background-color: rgba(198, 186, 204, 0.87);
 }
 
-/* Add a background color and some padding around the form */
 .container {
   padding: 20px;
   width: 50%;
@@ -188,7 +207,7 @@ fieldset {
   border-style: none;
 }
 
-/*anfahrt*/
+/*////////////////////////////////////////////anfahrt*/
 .anfahrt-items {
   display: inline-flex;
   margin: 20px;
@@ -199,7 +218,7 @@ iframe, .anfahrt-desc {
 }
 
 
-/*footer*/
+/*////////////////////////////////////////////footer*/
 .footer {
   position: absolute;
   margin-top: 50px;
